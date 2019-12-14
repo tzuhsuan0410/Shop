@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -26,11 +27,13 @@
   <ul class="navbar-nav">
     
     <!-- Dropdown -->
-    <li class="nav-item dropdown">
+    <li class="nav-item dropdown ">
       <a class="nav-link dropdown-toggle menu" id="navbardrop" data-toggle="dropdown">
         品牌列表
       </a>
-      <div class="dropdown-menu dc">
+      <div class="dropdown-menu dropdown-content">
+       <div class=row>
+        <div class="column">
         <a class="dropdown-item dropitem" href="#">波的多</a>
         <a class="dropdown-item dropitem" href="#">卡迪那</a>
         <a class="dropdown-item dropitem" href="#">湖池屋</a>
@@ -38,14 +41,18 @@
         <a class="dropdown-item dropitem" href="#">royce</a>
         <a class="dropdown-item dropitem" href="#">No Brand</a>
         <a class="dropdown-item dropitem" href="#">Orion</a>
+        
+        </div>
+        <div class="column">
         <a class="dropdown-item dropitem" href="#">haitai</a>
-        <a class="dropdown-item dropitem" href="#">秀美洋芋片</a>
         <a class="dropdown-item dropitem" href="#">Mister potato</a>
         <a class="dropdown-item dropitem" href="#">Jacker</a>
         <a class="dropdown-item dropitem" href="#">HIRO</a>
         <a class="dropdown-item dropitem" href="#">Tastco</a>
         <a class="dropdown-item dropitem" href="#">時樂坡</a>
         <a class="dropdown-item dropitem" href="#">F.East</a>
+        </div>
+        <div class="column">
         <a class="dropdown-item dropitem" href="#">品客</a>
         <a class="dropdown-item dropitem" href="#">樂事</a>
         <a class="dropdown-item dropitem" href="#">Eta</a>
@@ -53,6 +60,7 @@
         <a class="dropdown-item dropitem" href="#">Red Rock</a>
         <a class="dropdown-item dropitem" href="#">Smith's</a>
         <a class="dropdown-item dropitem" href="#">Thins</a>
+      </div>
       </div>
     </li>
     <li class="nav-item">
@@ -104,7 +112,6 @@ function switchMenu( theMainMenu, theSubMenu, theEvent ){
         }
     }
 }
-
 // 隱藏子選單
 function hideMenu(){
     if( VisibleMenu != '' ){
