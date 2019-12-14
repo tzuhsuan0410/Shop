@@ -1,115 +1,79 @@
-	body{
-		font-family:"微軟正黑體";
-	}
-       div.nav {
-                float: left;             
-	}
-	.all{
-		background-color: /*#FF936B/*#FFB499*//*#FFA280*/#FFA98A;
-		outline: none;
-	    height:130px;
 
-	    color:red;
-	    position: fixed;
-	    top:0;
-	    left:0;
-	    right:0;
+body{
+      font-family:"微軟正黑體"
 	}
-	#br{
-		color:	white;
-		font-weight: bolder;
-		line-height: 180%;
-		font-size:28px;
-		margin-right: 8px;
-	}
+	nav.bg{
+	background-color: #FFA98A;
+	height:130px;
+   }
+div.left{
+	float:left;
+}
+.brt{
+    color:	white;
+	font-weight: bolder;
+	font-size:28px;
+}
+.brt:hover{
+	color:white;
+}
 
-	.nnav{
-		
-		line-height: 500%;
-		font-size: 23px;
-		padding-left: 5px;
-		padding-right: 5px;
+
+a.menu{
 		color:white;
-	}
-	#menu{
-		color:white;
-		line-height: 560%;
+		margin-top:45px;
 		font-size: 23px;
 		padding-right: 5px;
 		margin-left:5px;
+        
 	}
-	#menu:hover{
+	a.menu:hover{
 		color:	darkred;
+		
 	}
+
 	.dc{
 		font-size: 15px;
-		margin-top: -45px;
-                overfiow:auto;
+		margin-top: -25px;
+		overflow: auto;
 	}
-	#aa{
+	.dc a{
+		overflow: auto;
+	}
+	.dropitem:hover{
+		color:dimgray;
+		background-color:#FCEFE8;
+	}
+	
+#aa{
 		font-size: 23px;
 		color:white;
 		line-height: 420%;
 		padding-right: 10px;
 		margin-left:5px;
+		margin-top:15px;
 	}
-
 	#aa:hover{
-        color:	darkred;
+		color:	darkred;
 	}
-
 	#right{
 		float:right;
 	}
-	#cc{
-        color:white;
-        font-size: 23px;
-		line-height: 420%;
-		margin-right:5px;
+	#srcbtn{
+		margin-left:-50px;
 	}
-	#cc:hover{
-         color:	darkred;
+	.dd{
+		margin-left:30px;
 	}
-	.dropbtn{
+	.cart{
+		margin-top:10px;
+		margin-right:10px;
+	}
+	#search{
+		margin-left:180px;
+		margin-right: 30px;
+		
+	}
+	.m{
 		color:white;
-		line-height: 420%;
-		font-size: 23px;
-		padding-left: 20px;
-		padding-right: 20px;
 	}
-	.dropbtn:hover{
-		color:darkred;
-	}
-.dropdown-content {
-  	   	display: none;
- 	 	position: absolute;
-  		background-color: #f9f9f9;
- 		min-width: 160px;
- 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  		z-index: 1;
-}
-
-.dropdown-content a {
-  		float: none;
-  		color: black;
-  		padding: 12px 16px;
-  		text-decoration: none;
-  		display: block;
-  		text-align: left;
-  		line-height: 100%;
-}
-
-.dropdown-content a:hover {
-  		background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  		display: block;
-}
-.bb{
-	 margin-top:20px;
-
-}
-.dd{
-	margin-top:20px;
-}
