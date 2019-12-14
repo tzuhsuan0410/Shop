@@ -68,6 +68,7 @@ a.menu:hover{
 .dd{
 		margin-left:30px;
 		cursor: pointer;
+	        color:white;
 	}
 .cart{
 		margin-top:10px;
@@ -78,6 +79,4 @@ a.menu:hover{
 		margin-right: 30px;
 		
 	}
-.m{
-		color:white;
-	}
+
