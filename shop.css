@@ -2,9 +2,10 @@
 body{
       font-family:"微軟正黑體"
 	}
-	nav.bg{
+nav.bg{
 	background-color: #FFA98A;
 	height:130px;
+	position:fixed;
    }
 div.left{
 	float:left;
