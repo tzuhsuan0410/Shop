@@ -29,20 +29,20 @@ a.menu{
 	        cursor: pointer;
         
 	}
-	a.menu:hover{
+a.menu:hover{
 		color:	darkred;
 		
 	}
 
-	.dc{
+.dc{
 		font-size: 15px;
 		margin-top: -25px;
 		overflow: auto;
 	}
-	.dc a{
+.dc a{
 		overflow: auto;
 	}
-	.dropitem:hover{
+.dropitem:hover{
 		color:dimgray;
 		background-color:#FCEFE8;
 	}
@@ -55,28 +55,28 @@ a.menu{
 		margin-left:5px;
 		margin-top:15px;
 	}
-	#aa:hover{
+#aa:hover{
 		color:	darkred;
 	}
-	#right{
+#right{
 		float:right;
 	}
-	#srcbtn{
+#srcbtn{
 		margin-left:-50px;
 	}
-	.dd{
+.dd{
 		margin-left:30px;
 		cursor: pointer;
 	}
-	.cart{
+.cart{
 		margin-top:10px;
 		margin-right:10px;
 	}
-	#search{
+#search{
 		margin-left:180px;
 		margin-right: 30px;
 		
 	}
-	.m{
+.m{
 		color:white;
 	}
