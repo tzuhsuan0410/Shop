@@ -72,8 +72,9 @@ a.menu:hover{
 	        color:white;
 	}
 .cart{
-		margin-top:15px;
+		margin-top:10px;
 		margin-right:10px;
+	        margin-left:10px;
 	}
 #search{
 		margin-left:180px;
