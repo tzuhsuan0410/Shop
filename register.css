@@ -33,7 +33,7 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 b{
-  color:#A97070;
+  color:#9F6060;
 }
 
 /* Overwrite default styles of hr */
