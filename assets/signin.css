@@ -1,0 +1,75 @@
+body{
+  font-family: "微軟正黑體";
+}
+* {
+  box-sizing: border-box;
+}
+
+#all{
+   text-align: center;
+   height:100%;
+}
+/* Add padding to containers */
+h1{
+  color: #CD5C5C;
+}
+.container {
+
+  padding: 16px;
+  background-color: #FDF5E6;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background-color:  #FAEBD7;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color:#FFE4B5;
+  outline: none;
+}
+b{
+  color:/*#A97070*/#9F6060;
+  font-size: 20px;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #FFA98A;
+  color: white;
+  font-size: 23px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+a {
+  color: #CD5C5C;
+}
+
+
+.signin {
+  background-color:  #FFEFD5;
+  font-size: 20px;
+  text-align: center;
+}
