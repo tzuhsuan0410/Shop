@@ -179,7 +179,7 @@ button#navbar02:focus{
   display: table;
   clear: both;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .column {
     width: 100%;
     height: auto;
