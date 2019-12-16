@@ -159,7 +159,7 @@ button#navbar02:focus{
   background-color:white;
   height:auto;
   margin-top: -20px;
-  margin-left: -15px;
+  margin-left: 0px;
 
 }
 
@@ -188,6 +188,7 @@ button#navbar02:focus{
 
 a.item{
     white-space:nowrap;
+    font-size: 17px;
 }
 .right{
     float:right;
