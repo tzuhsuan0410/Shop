@@ -1,0 +1,42 @@
+.pic
+{
+	padding-left: 80px;
+}
+
+.word01
+{
+	padding-top: 150px;
+	text-align: center;
+}
+
+.word01>a
+{
+	text-decoration:none;
+  color: #3F4878;
+}
+
+.word02
+{
+	padding-left: 60px;
+	margin-bottom: -30px;
+	padding-top: 135px;
+	color: #3F4878;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.productname
+{
+	text-align: center;
+	margin-top: 10px;
+	color: #3c3c3c;
+}
+
+.productprice
+{
+	color: #F95B06;
+	margin-left: 15px;
+}
