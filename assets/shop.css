@@ -1,170 +1,46 @@
-    body{
-        font-family: "微軟正黑體";
-      
-    }
-    .navall{
-            border-radius:0;
-            border-style: none;
-            width:100%;
-            height:130px;
-            background-color: #FFA98A;
-            position: fixed;
-            top:0;
-            left:0;
-            right:0;
-            position: fixed;
-            z-index:999;
+  body{
+      font-family:"微軟正黑體";
+      width:100%;
+	}
 
-
-       }
-     .header01{
-        background-color: #FFA98A;
-     }
-    .navbar-brand{
-		          display: inline-block;   
-	             }
-
-    #br{
-        color:white;
-        margin-left: -40px;
-        font-weight: bolder;
-        line-height: 180%;
-        font-size:28px;     
-    }
-
-
-
-.navbar1{
-        margin-top: 50px;
-        border-style: none;
-        overflow: auto;
-        background-color:#FFA98A; 
-       
+nav.bg{
+	background-color: #FFA98A;
+	height:130px;
+	position:fixed;
+	width:100%;
+	z-index:999;
+   }
+div.left{
+	float:left;
 }
-.navbar1:hover{
-    border-style: none;
-    background-color: white;
+.li01{
+  margin-left: 20px;
+}
+.brt{
+    color:	white;
+	  font-weight: bolder;
+	  font-size:28px;
+}
+.brt:hover{
+	color:white;
 }
 
-
-button#navbar02:hover{
-    background-color:#FFA98A;
-}
-
-button#navbar02:focus{
-    background-color:#FFA98A;
-}
-
-
-.icon:hover{
-    background-color: #FFA98A;
-
-}
-
-	@media (max-width: 991px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-
-    .navbar-collapse {
-        border-style: none;
-        margin-top: 40px;
-        background-color: #FFA98A;
-        
-    }
-    .navbar-collapse.collapse {
-        display:none!important;
-    }
-
-    .navbar-nav>li {
-        float: none; 
-    }
-
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        overflow: auto;
-    }
-
-    .navbar-text {
-        float: none;
-        margin: 15px 0;
-    }
-    /* since 3.1.0 */
-    .navbar-collapse.collapse.in { 
-        display: block!important;
-    }
-    .collapsing {
-        overflow: auto;!important;
-    }
-  
-
-  }
-   #navitem{
-        cursor: pointer;
-        width:auto;
-        font-size: 23px;
-        margin-top: 40px;
-        margin-left: 10px;
-        color:white;
-        background-color: #FFA98A;
-    }
-    #navitem:hover{
-         color: darkred;
-         background-color: #FFA98A;
-    }
-    #navitem03{
-        cursor: pointer;
-        width:auto;
-        font-size: 23px;
-        margin-top: 40px;
-        margin-left: -5px;
-        color:white;
-        background-color: #FFA98A; 
-    }
-    #navitem03:hover{
-         color: darkred;
-         background-color: #FFA98A;
-    }
-
-    .dropitem{
-        width:10px;
-        font-size:20px;
-        color:dimgray;
-        margin-left: -10px;
-        padding-left: 35px;
-    }
-    .dropitem:hover{
-        color: #AD5A5A  ;
-        text-decoration: none;
-    }
-.dropdownmenu{
-    width: 550px;
-    height:auto;
-    overflow:hidden;
-    padding-left: 60px;
-    text-align: center;
-    word-wrap: break-all;
-}
-
-
-   .column {
-  text-align:center;
+.column {
+  text-align: center;
   float: left;
   width: 33.33%;
   padding: 10px;
   background-color:white;
-  height:auto;
+  height: 250px;
   margin-top: -20px;
-  margin-left: 0px;
+  margin-left: -15px;
+
 
 }
 
 .column a {
   float: none;
+  /*color: black;*/
   padding: 16px;
   text-decoration: none;
   display: block;
@@ -172,45 +48,99 @@ button#navbar02:focus{
 }
 
 .column a :hover{
-    color:  darkred;
+	color:	darkred;
 }
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .column {
     width: 100%;
     height: auto;
   }
 }
+a.menu{
+		color:white;
+		margin-top:45px;
+		font-size: 23px;
+		padding-right: 5px;
+		margin-left:10px;
+	margin-top: 42px;
+	    cursor: pointer;
+	    float:left;
+	    overflow: hidden;
+        
+	}
+a.menu:hover{
+		color:	darkred;
+		
+	}
 
-a.item{
-    white-space:nowrap;
-    font-size: 17px;
+.dropdown-content{
+		font-size: 15px;
+		/*margin-top: -35px;*/
+		overflow:hidden;
+		width:450px;
+		height:380px;
+		display:none;
+		background-color:white;
+		left:0;
+		margin-top:-35px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 10;
+	}
+.dc a{
+		overflow: auto;
+	}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
-.right{
-    float:right;
-    list-style: none;
-    margin-top:50px;
+.dropitem:hover{
+		color:dimgray;
+		background-color:#FCEFE8;
+	}
+	.right{
+    float: right;
+  }
+#aa{
+		font-size: 23px;
+		color:white;
+		line-height: 420%;
+		padding-right: 10px;
+		margin-left:30px;
+		margin-top:10px;
+	}
+#aa:hover{
+		color:	darkred;
+	}
+ul.right{
+		float:right;
+	}
+.searchall{
+  margin-left:80px;
+  margin-top: 50px;
 }
-.membermenu{
-    margin-top: 10px;
-    margin-left:-50px;
-    text-align: left;
-    font-size: 17px;
-    
-    color: dimgray;
-   }
+
+
 .cart{
-    margin-right: -10px;
-    margin-left: 70px;
-    margin-top: -40px;
-    background-color:#FFA98A; 
+		margin-top:50px;
+		margin-right:-300px;
+	  margin-left:10px;
+	}
+
+  .member1{
+    
+    color:white;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 20px;
+
+  }
+.membermenu{
+  margin-top: -30px;
 }
-
-
 
 
 
