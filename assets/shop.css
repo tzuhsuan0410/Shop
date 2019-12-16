@@ -142,7 +142,7 @@ button#navbar02:focus{
         text-decoration: none;
     }
 .dropdownmenu{
-    width: 550px;
+    width: 600px;
     height:auto;
     overflow:hidden;
     padding-left: 60px;
@@ -179,7 +179,7 @@ button#navbar02:focus{
   display: table;
   clear: both;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .column {
     width: 100%;
     height: auto;
