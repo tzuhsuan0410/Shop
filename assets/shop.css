@@ -109,8 +109,9 @@
         padding-left: 35px;
     }
     .dropitem:hover{
-        color: #AD5A5A  ;
+        color: dimgray ;
         text-decoration: none;
+        background-color: #FCEFE8;
     }
     .membermenu{
       width: 200px;
