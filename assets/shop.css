@@ -4,6 +4,9 @@
 }
 .navall{
         position: fixed;
+        left:0;
+        top:0;
+  right:0;
         z-index:999;
 }
 
@@ -110,7 +113,7 @@
         text-decoration: none;
     }
     .membermenu{
-      width: 150px;
+      width: 200px;
     margin-top: 10px;
     margin-left:-50px;
     text-align: left;
