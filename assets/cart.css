@@ -1,0 +1,223 @@
+body{
+  font-family: "微軟正黑體";
+  background: lightyellow;
+}
+h1{
+  margin-top:150px;
+  text-align: center;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: rosybrown;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #FFA98A;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.alert {
+  margin-top: 20px;
+  height:150px;
+  background-color:white;
+  color:dimgray;
+  margin-left: 80px;
+  margin-right: 80px;
+  overflow: auto;
+ 
+}
+
+.closebtn {
+  margin-left: 15px;
+  margin-top:50px;
+  color: dimgray;
+  font-weight: bold;
+  float: right;
+  font-size: 30px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+div.commodity{
+  float: right;
+  margin-top:-60px;
+  margin-left: 0px;
+}
+
+
+  ul,li {
+                list-style: none;
+
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            a:hover {
+                cursor: pointer;
+                text-decoration: none;
+            }
+            
+            a:link {
+                text-decoration: none;
+            }
+            
+            .btn-numbox {
+                overflow: hidden;
+                margin-top: 20px;
+            }
+            
+            .btn-numbox li {
+                float: left;
+            }
+            
+            .btn-numbox li .number,
+            .kucun {
+                display: inline-block;
+                font-size: 20px;
+                color: red;
+                vertical-align: sub;
+            }
+            
+            .btn-numbox .count {
+                width: 300px;
+                overflow:hidden;
+                margin: 0 16px 0 -20px;
+                
+
+
+            }
+            
+            .btn-numbox .count .num-jian,
+            .input-num,
+            .num-jia {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                line-height: 45px;
+                text-align: center;
+                font-size: 25px;
+                color: dimgray;
+                cursor: pointer;
+                border: 1px solid lightgray;
+            }
+            .btn-numbox .count .input-num {
+                width: 100px;
+                height: 50px;
+                color: #333;
+                border-left: 0;
+                border-right: 0;
+            }
+
+li.item{
+  font-size: 25px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.total{
+    font-size: 35px;
+    color:#8B4513;
+    float:right;
+    font-weight: bolder;
+    margin-right:80px;
+}
+.button{
+
+      background-color:#FFA98A;
+      color:white;
+      line-height: 70px;
+      font-size:25px; 
+      width:150px;
+      height: 70px;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 20px;
+}
+.button:hover{
+    color:darkred;
+}
+
+
+.checked{
+  text-align: center;
+  margin-top: 80px;
+  margin-left:0px;
+}
+
+  footer
+{
+  position: absolute;
+  top: 1100px;
+  background-color: #FFA98A;
+  height: 85px;
+  margin-top: 80px;
+  width: 100%;
+}
