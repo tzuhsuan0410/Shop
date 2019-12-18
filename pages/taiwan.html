@@ -1,119 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<style>
- 	@import"../assets/sidebar.css";
-  @import"../assets/shop.css";
-  @import"../assets/taiwan.css";
-   </style>
-	<title>台灣｜Taiwan</title>	
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<title>沙發馬鈴薯</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<style>
+			@import "assets/shop.css";
+		</style>
+
+	</head>
 <body>
 
- <nav class="navbar navbar-expand-sm bg">
-  <!-- Brand -->
-  <div class="row">
-  <div class=".col-md-2">
-  <a class="navbar-brand " href="../index.html"><img src="../assets/images/737983.png" style="width:60px; height:60px;"></a>
-<br>
-  <a class="navbar-brand brt" href="../index.html">沙發馬鈴薯</a>
-</div>
-  <!-- Links -->
-  <ul class="navbar-nav justify-content-start .col-md-4">   
-    <!-- Dropdown -->
-    <li class="nav-item dropdown li01">
-      <a class="nav-link dropdown-toggle menu" id="navbardrop" data-toggle="dropdown">
-        品牌列表
-      </a>
-      <div class="dropdown-menu dropdown-content">
-       <div class=row>
-        <div class="column">
-        <a class="dropdown-item dropitem" href="#">波的多</a>
-        <a class="dropdown-item dropitem" href="#">卡迪那</a>
-        <a class="dropdown-item dropitem" href="#">湖池屋</a>
-        <a class="dropdown-item dropitem" href="#">calbee</a>
-        <a class="dropdown-item dropitem" href="#">royce</a>
-        <a class="dropdown-item dropitem" href="#">No Brand</a>
-        <a class="dropdown-item dropitem" href="#">Orion</a>  
-        </div>
-        <div class="column">
-        <a class="dropdown-item dropitem" href="#">haitai</a>
-        <a class="dropdown-item dropitem" href="#">Mister potato</a>
-        <a class="dropdown-item dropitem" href="#">Jacker</a>
-        <a class="dropdown-item dropitem" href="#">HIRO</a>
-        <a class="dropdown-item dropitem" href="#">Tastco</a>
-        <a class="dropdown-item dropitem" href="#">食樂坡</a>
-        <a class="dropdown-item dropitem" href="#">F.East</a>
-        </div>
-        <div class="column">
-        <a class="dropdown-item dropitem" href="#">品客</a>
-        <a class="dropdown-item dropitem" href="#">樂事</a>
-        <a class="dropdown-item dropitem" href="#">Eta</a>
-        <a class="dropdown-item dropitem" href="#">Bluebird</a>
-        <a class="dropdown-item dropitem" href="#">Red Rock</a>
-        <a class="dropdown-item dropitem" href="#">Smith's</a>
-        <a class="dropdown-item dropitem" href="#">Thins</a>
-        </div>
-      </div>
-    </div>
-    </li>
-       <li class="nav-item ">
-          <a class="nav-link" id="aa" href="#">促銷活動</a>
-    </li>
-       <li class="nav-item">
-          <a class="nav-link" id="aa" href="#">排行榜</a>
-    </li>
-       <li class="nav-item">
-          <a class="nav-link" id="aa" href="#">關於我們</a>
-       </li>
-  </ul>
 
-<ul class="nav navbar-nav justify-content-end .col-md-4 ">
-    
-        <li class="nav-item dropdown member1"><a class="nav-link dropdown-toggle member1" id="navbardrop " data-toggle="dropdown"><img src="../assets/images/user.png" style="width:35px; height:35px;"></a>
-          <div class="dropdown-menu membermenu">
-            <a class="dropdown-item dropitem" href="signin.html">登入</a>
-            <a class="dropdown-item dropitem" href="register.html">註冊</a>
-        </li>
-        <li class="cart"><a href="#"><img src="../assets/images/shopping-cart.png" style="width:35px; height:35px;"></a></li>
-    </ul>
-  </div>
- </div>
- </div>
-</div>
-</div>
-</nav>
-<script>
-function switchMenu( theMainMenu, theSubMenu, theEvent ){
-    var SubMenu = document.getElementById( theSubMenu );
-    if( SubMenu.style.display == 'none' ){ // 顯示子選單
-        SubMenu.style.minWidth = theMainMenu.clientWidth; // 讓子選單的最小寬度與主選單相同 (僅為了美觀)
-        SubMenu.style.display = 'block';
-        hideMenu(); // 隱藏子選單
-        VisibleMenu = theSubMenu;
-    }
-    else{ // 隱藏子選單
-        if( theEvent != 'MouseOver' || VisibleMenu != theSubMenu ){
-            SubMenu.style.display = 'none';
-            VisibleMenu = '';
-        }
-    }
-}
-// 隱藏子選單
-function hideMenu(){
-    if( VisibleMenu != '' ){
-        document.getElementById( VisibleMenu ).style.display = 'none';
-    }
-    VisibleMenu = '';
-}
-</script>
+<header class="">
+			<nav class="navbar navbar-expand-lg navbar-light navall" style="background-color: #FFA98A;">
+				<a class="navbar-brand" id="brandname" name="logo" href="index.html"><img src="assets/images/737983.png" width="60" height="60" alt="" class="logo"><br>沙發馬鈴薯</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item dropdown navmenu01">
+							<a class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">
+								品牌列表
+							</a>
+							<div class="dropdown-menu dropdownmenu" aria-labelledby="navbarDropdown">
+								<div class="row">
+        						   <div class="column">
+        								<a class="dropdown-item dropitem item" href="#">波的多</a>
+        								<a class="dropdown-item dropitem item" href="#">卡迪那</a>
+        								<a class="dropdown-item dropitem item" href="#">湖池屋</a>
+        								<a class="dropdown-item dropitem item" href="#">calbee</a>
+        								<a class="dropdown-item dropitem item" href="#">royce</a>
+       			 						<a class="dropdown-item dropitem item" href="#">No Brand</a>
+        								<a class="dropdown-item dropitem item" href="#">Orion</a>  
+        						   </div>
+        						   <div class="column">
+        								<a class="dropdown-item dropitem item" href="#">haitai</a>
+        								<a class="dropdown-item dropitem item" href="#">Mister potato</a>
+        								<a class="dropdown-item dropitem item" href="#">Jacker</a>
+        								<a class="dropdown-item dropitem item" href="#">HIRO</a>
+        								<a class="dropdown-item dropitem item" href="#">Tastco</a>
+        								<a class="dropdown-item dropitem item" href="#">食樂坡</a>
+        								<a class="dropdown-item dropitem item" href="#">F.East</a>
+        						   </div>
+        						   <div class="column">
+        								<a class="dropdown-item dropitem item" href="#">品客</a>
+        								<a class="dropdown-item dropitem item" href="#">樂事</a>
+        								<a class="dropdown-item dropitem item" href="#">Eta</a>
+        								<a class="dropdown-item dropitem item" href="#">Bluebird</a>
+        								<a class="dropdown-item dropitem item" href="#">Red Rock</a>
+        								<a class="dropdown-item dropitem item" href="#">Smith's</a>
+        								<a class="dropdown-item dropitem item" href="#">Thins</a>
+        						   </div>
+      						  </div>
+						</div>
+						</li>
+						<li class="nav-item navmenu01">
+							<a class="nav-link" id="navmenu00" href="pages/activity.html">促銷活動</a>
+						</li>
+						<li class="nav-item navmenu01">
+							<a class="nav-link"  id="navmenu00" href="pages/rank.html">排行榜</a>
+						</li>
+						<li class="nav-item navmenu01">
+							<a class="nav-link"  id="navmenu00" href="pages/about.html">關於我們</a>
+						</li>
+					</ul>
+
+						<ul class="navbar-nav mr-auto rightul">
+						<li class="nav-item dropdown navmenu02"><a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown"><img src="assets/images/user.png" style="width:45px; height:45px;"></span></a>
+          			   		<div class="dropdown-menu membermenu ">
+            					<a class="dropdown-item dropitem" href="pages/signin.html">登入</a><br>
+            					<a class="dropdown-item dropitem" href="pages/register.html">註冊</a><br>
+						<a class="dropdown-item dropitem" href="pages/member.html">修改會員資料</a><br>
+						<a class="dropdown-item dropitem" href="pages/order.html">訂單紀錄</a><br>
+						<a class="dropdown-item dropitem" href="pages/praise.html">評價紀錄</a>
+            	    		</div>
+        				</li>
+        				<li class="cart navmenu02"><a href="#"><img src="assets/images/shopping-cart.png" style="width:50px; height:50px;"></a></li>	
+        					
+					</ul>
+				</div>
+			</nav>
+	
+			</header>
+
 
 
 
