@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>購物車</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>	
+	<style>
+		@import"../assets/cart.css";
+		@import"../assets/shop.css";
+	</style>
+</head>
+<body>
+<header class="">
+			<nav class="navbar navbar-expand-lg navbar-light navall" style="background-color: #FFA98A;">
+				<a class="navbar-brand" id="brandname" name="logo" href="index.html"><img src="../assets/images/737983.png" width="60" height="60" alt="" class="logo"><br>沙發馬鈴薯</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item dropdown navmenu01">
+							<a class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">
+								品牌列表
+							</a>
+							<div class="dropdown-menu dropdownmenu" aria-labelledby="navbarDropdown">
+								<div class="row">
+        						   <div class="column">
+        								<a class="dropdown-item dropitem item" href="pages/taiwan.html">波的多</a>
+        								<a class="dropdown-item dropitem item" href="pages/taiwan.html">卡迪那</a>
+        								<a class="dropdown-item dropitem item" href="pages/japan.html">湖池屋</a>
+        								<a class="dropdown-item dropitem item" href="pages/japan.html">calbee</a>
+        								<a class="dropdown-item dropitem item" href="pages/japan.html">royce</a>
+       			 						<a class="dropdown-item dropitem item" href="pages/korea.html">No Brand</a>
+        								<a class="dropdown-item dropitem item" href="pages/korea.html">Orion</a>  
+        						   </div>
+        						   <div class="column">
+        								<a class="dropdown-item dropitem item" href="pages/korea.html">haitai</a>
+        								<a class="dropdown-item dropitem item" href="pages/malaysia.html">Mister potato</a>
+        								<a class="dropdown-item dropitem item" href="pages/malaysia.html">Jacker</a>
+        								<a class="dropdown-item dropitem item" href="pages/malaysia.html">HIRO</a>
+        								<a class="dropdown-item dropitem item" href="pages/thailand.html">Tastco</a>
+        								<a class="dropdown-item dropitem item" href="pages/singapore.html">食樂波</a>
+        								<a class="dropdown-item dropitem item" href="pages/singapore.html">F.East</a>
+        						   </div>
+        						   <div class="column">
+        								<a class="dropdown-item dropitem item" href="pages/america.html">品客</a>
+        								<a class="dropdown-item dropitem item" href="pages/america.html">樂事</a>
+        								<a class="dropdown-item dropitem item" href="pages/newzealand.html">Eta</a>
+        								<a class="dropdown-item dropitem item" href="pages/newzealand.html">Bluebird</a>
+        								<a class="dropdown-item dropitem item" href="pages/australia.html">Red Rock</a>
+        								<a class="dropdown-item dropitem item" href="pages/australia.html">Smith's</a>
+        								<a class="dropdown-item dropitem item" href="pages/australia">Thins</a>
+        						   </div>
+      						  </div>
+						</div>
+						</li>
+						<li class="nav-item navmenu01">
+							<a class="nav-link" id="navmenu00" href="pages/activity.html">促銷活動</a>
+						</li>
+						<li class="nav-item navmenu01">
+							<a class="nav-link"  id="navmenu00" href="pages/rank.html">排行榜</a>
+						</li>
+						<li class="nav-item navmenu01">
+							<a class="nav-link"  id="navmenu00" href="pages/about.html">關於我們</a>
+						</li>
+					</ul>
+
+						<ul class="navbar-nav mr-auto rightul">
+						<li class="nav-item dropdown navmenu02"><a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown"><img src="../assets/images/user.png" style="width:45px; height:45px;"></span></a>
+          			   		<div class="dropdown-menu membermenu ">
+            					<a class="dropdown-item dropitem" href="pages/signin.html">登入</a><br>
+            					<a class="dropdown-item dropitem" href="pages/register.html">註冊</a><br>
+						<a class="dropdown-item dropitem" href="pages/member.html">修改會員資料</a><br>
+						<a class="dropdown-item dropitem" href="pages/order.html">訂單紀錄</a><br>
+						<a class="dropdown-item dropitem" href="pages/praise.html">評價紀錄</a>
+            	    		</div>
+        				</li>
+        				<li class="cart navmenu02"><a href="pages/cart.html"><img src="../assets/images/shopping-cart.png" style="width:50px; height:50px;"><span class="badge">0</span></a></li>	
+        					
+					</ul>
+				</div>
+			</nav>
+	
+			</header>
+
+
+   <h1>購物車</h1>
+   <center>
+ 
+		<div class="alert">
+  			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  			<label class="container"><input type="checkbox"><span class="checkmark"></span></label> 
+  				<div class="commodity">
+            	  　<ul class="btn-numbox">
+            	  		<li class="item">購買的商品名稱</li>
+            	  		<li class="item">購買的商品價格</li>
+              			<li>
+                 			<ul class="count">
+                    			<li><span id="num-jian" class="num-jian">-</span></li>
+                    			<li><input type="text" class="input-num" id="input-num" value="0" /></li>
+                    			<li><span id="num-jia" class="num-jia">+</span></li>
+                			</ul>
+            			</li>    
+　　　  				</ul>
+    			</div>	           
+        </div>
+        <div class="alert">
+  			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  			<label class="container"><input type="checkbox"><span class="checkmark"></span></label> 
+  				<div class="commodity">
+            	  　<ul class="btn-numbox">
+            	  		<li class="item">購買的商品名稱</li>
+            	  		<li class="item">購買的商品價格</li>
+              			<li>
+                 			<ul class="count">
+                    			<li><span id="num-jian" class="num-jian">-</span></li>
+                    			<li><input type="text" class="input-num" id="input-num" value="0" /></li>
+                    			<li><span id="num-jia" class="num-jia">+</span></li>
+                			</ul>
+            			</li>    
+　　　  				</ul>
+    			</div>	           
+        </div>
+        <div class="alert">
+  			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  			<label class="container"><input type="checkbox"><span class="checkmark"></span></label> 
+  				<div class="commodity">
+            	  　<ul class="btn-numbox">
+            	  		<li class="item">購買的商品名稱</li>
+            	  		<li class="item">購買的商品價格</li>
+              			<li>
+                 			<ul class="count">
+                    			<li><span id="num-jian" class="num-jian">-</span></li>
+                    			<li><input type="text" class="input-num" id="input-num" value="0" /></li>
+                    			<li><span id="num-jia" class="num-jia">+</span></li>
+                			</ul>
+            			</li>    
+　　　  				</ul>
+    			</div>	           
+        </div>
+        <div class="alert">
+  			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  			<label class="container"><input type="checkbox"><span class="checkmark"></span></label> 
+  				<div class="commodity">
+            	  　<ul class="btn-numbox">
+            	  		<li class="item">購買的商品名稱</li>
+            	  		<li class="item">購買的商品價格</li>
+              			<li>
+                 			<ul class="count">
+                    			<li><span id="num-jian" class="num-jian">-</span></li>
+                    			<li><input type="text" class="input-num" id="input-num" value="0" /></li>
+                    			<li><span id="num-jia" class="num-jia">+</span></li>
+                			</ul>
+            			</li>    
+　　　  				</ul>
+    			</div>	           
+        </div>
+    </center>
+    <hr>
+    <div class="total"><br>
+      總共____元</div><br><br>
+     <div class="checked">
+    <a href="#" class="button">去買單</a>
+    </div>
+
+<div>
+			<a href="">
+				<div class="gototop"><img src="../assets/images/toparrow.png" height="50px" width="50px"></div>
+			</a>
+		</div>
+
+			
+
+		<footer>
+
+			<p class="foot1">本店配送方式一律採宅配到府！</p>
+			<p class="foot2">© 2019</p>
+			<p class="foot3">瀏覽人數：</p>
+		</footer>
+
+		<script >
+			$(function(){
+  
+			  $(window).scroll(function(){
+			    //var $(window).scrollTop(); 為 scroll
+			    var scroll = $(window).scrollTop();
+			    
+			    if( scroll >= 70){
+			      // 當卷軸超過70px,.gototop就淡入，如果小於就淡出
+			      $(".gototop").fadeIn();
+			      
+			    }else{
+			      
+			      $(".gototop").fadeOut();
+			      
+			    }
+			  });
+			  // 當我按下.gototop時，添加動畫讓卷軸跑道最上面
+			  $('.gototop').click(function(){
+			    $('html,body').animate({
+			      scrollTop:$('html').offset().top
+			    })
+			    
+			    return false;
+			  });
+			})
+
+
+		var num_jia = document.getElementById("num-jia");
+        var num_jian = document.getElementById("num-jian");
+        var input_num = document.getElementById("input-num");
+			num_jia.onclick = function() {
+					input_num.value = parseInt(input_num.value) + 1;
+            }
+
+            num_jian.onclick = function() {
+
+            			if(input_num.value <= 0) {
+                			input_num.value = 0;
+            			} else {
+
+                			input_num.value = parseInt(input_num.value) - 1;
+           			   }
+
+        			}
+		</script>
+</body>
+</html>
