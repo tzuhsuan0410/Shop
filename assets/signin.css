@@ -73,3 +73,23 @@ a {
   font-size: 20px;
   text-align: center;
 }
+
+a:hover
+{
+  color:#CD5C5C;
+}
+
+footer
+{
+  position: absolute;
+  top: 650px;
+  background-color: #FFA98A;
+  height: 85px;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.topmargin
+{
+  margin-top: 130px;
+}
