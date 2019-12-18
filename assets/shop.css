@@ -122,6 +122,16 @@
     
     color: dimgray;
    }
+.badge{
+      position: relative;
+      top: -18px;
+      right: 12px;
+      font-size: 15px;
+      padding: 5px 10px;
+      border-radius: 50%;
+      background-color:white;
+      color: #FFA98A;
+}
 
 
 
