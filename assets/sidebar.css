@@ -1,5 +1,4 @@
 
-
 body{
   font-family: "微軟正黑體";
 
@@ -41,16 +40,4 @@ body{
 }
 
 
-
-
-
-footer
-{
-  position: absolute;
-  top: 5000px;
-  background-color: #FFA98A;
-  height: 85px;
-  margin-top: 80px;
-  width: 100%;
-}
 
