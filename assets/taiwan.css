@@ -224,10 +224,57 @@ body{
 
 footer
 {
-  position: absolute;
-  top: 5000px;
   background-color: #FFA98A;
   height: 85px;
   margin-top: 80px;
   width: 100%;
+}
+
+.foot1
+{
+  text-align: center;
+  font-family: 微軟正黑體;
+  color: white;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.foot2
+{
+  font-family: 微軟正黑體;
+  text-align: center;
+  color: white;
+  margin-top: -5px;
+}
+
+.foot3
+{
+  font-family: 微軟正黑體;
+  margin-left: 15px;
+  margin-top: -50px;
+  padding-top: 10px;
+  color: white;
+}
+
+
+.gototop
+{
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  z-index: 999;
+  text-decoration:none;
+  cursor: pointer;
+  display:none;
+}
+
+.gototop:hover
+{
+  opacity: 0.8;
+}
+
+.container-fluid
+{
+  padding-right: 0px;
+  padding-left: 0px;
 }
