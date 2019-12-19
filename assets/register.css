@@ -78,7 +78,7 @@ a:hover
 footer
 {
   position: absolute;
-  top: 700px;
+  top: 930px;
   background-color: #FFA98A;
   height: 85px;
   margin-top: 80px;
@@ -87,5 +87,5 @@ footer
 
 .topmargin
 {
-  margin-top: 130px;
+  margin-top: 200px;
 }
