@@ -1,0 +1,279 @@
+footer
+{
+  position: absolute;
+  top: 1350px;
+  background-color: #FFA98A;
+  height: 85px;
+  margin-top: 80px;
+  width: 100%;
+}
+
+
+.information
+{
+
+	background-color: white;
+	width: 70%;
+	height: 1150px;
+	/*margin-top: 180px;*/
+	position: relative;
+            	top: 200px;
+            	left: px;
+	position: relative;
+	border: 1px solid #ccc;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1); 
+	overflow: auto;
+   
+}
+
+
+.productphoto
+{
+	margin-top: 80px;
+	margin-left:0px;
+	
+}
+
+h3
+{
+	
+	margin-top: 90px;
+	margin-left: -100px;
+	 
+	/*float: right;*/
+}
+
+.price
+{
+	color: #F95B06;
+	font-size: 30px;
+	margin-left: -90px;
+	margin-top: 50px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.btn-numbox {
+    overflow: hidden;
+    margin-top: 60px;
+    margin-left: -130px;
+}
+
+.btn-numbox li {
+    float: left;
+}
+
+.btn-numbox li .number,
+.kucun {
+    display: inline-block;
+    font-size: 15px;
+    color: black;
+    vertical-align: sub;
+}
+
+.btn-numbox .count {
+    overflow: hidden;
+    margin: 0 16px 0 -20px;
+}
+
+.btn-numbox .count .num-jian,
+.input-num,
+.num-jia {
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    color:#ADADAD ;
+    cursor: pointer;
+    border: 1px solid 	#BEBEBE;
+}
+ 
+.btn-numbox .count .input-num {
+    width: 80px;
+    height: 40px;
+    color: #333;
+    border-left: 0;
+    border-right: 0;
+}
+
+.number
+{
+	margin-top: 3px;
+}
+
+.kucun 
+{
+	margin-top: 20px;
+}
+
+
+.add
+{
+	background-color: #FF7847;
+	border: none;
+	color: white;
+	padding: 13px 27px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 8px;
+	box-shadow: 0 5px #999;
+	margin-top: 50px;
+	margin-left: 110px;
+}
+
+.add:active
+{
+	background-color: #FF8457;
+	box-shadow: 0 2px #666;
+	transform: translateY(2px);
+}
+
+.add:focus
+{
+	outline:none;
+}
+
+
+.praise
+{
+	border:1px solid 	#BEBEBE;;
+	padding: 20px;
+	margin: 50px 50px 0px 50px;
+	overflow: auto;
+}
+
+.rating {
+        font-size: 0;
+        display: table;
+
+        
+    }
+
+    .rating > label {
+        color: #ddd;
+        float: right;
+    }
+
+    .rating > label:before {
+        padding: 5px;
+        font-size: 24px;
+        line-height: 1em;
+        display: inline-block;
+        content: "★";
+    }
+
+    .rating > input:checked ~ label,
+    .rating:not(:checked) > label:hover,
+    .rating:not(:checked) > label:hover ~ label {
+        color: #FFD700;
+    }
+
+    .rating > input:checked ~ label:hover,
+    .rating > label:hover ~ input:checked ~ label,
+    .rating > input:checked ~ label:hover ~ label {
+        opacity: 0.5;
+    }
+
+.comment
+{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+.submit
+{
+	background-color: #FF7847;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 8px;
+	box-shadow: 0 5px #999;
+	margin-top: 60px;
+	margin-right: 20px;
+	float: right;
+}
+
+.submit:active
+{
+	background-color: #FF8457;
+	box-shadow: 0 2px #666;
+	transform: translateY(2px);
+}
+
+.submit:focus
+{
+	outline:none;
+}
+ 
+.comments
+{
+	height: 300px;
+    overflow: auto;
+    margin: 30px 50px 10px 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.frame
+{
+	width: 100%;
+	height: 150px;
+	background-color: #F0F0F0;
+	overflow: auto;
+	vertical-align:middle;
+	margin-top: 20px;
+}
+
+.frame>img
+{
+	margin-top: 35px;
+	margin-left: 30px;
+	float: left;
+}
+
+
+
+.comments_word
+{
+	margin-top: 40px;
+	margin-left: 150px;
+}
+
+.rating1{
+        font-size: 0;
+        display: table;
+
+        
+    }
+
+.rating1 > label {
+        color: #ddd;
+        float: right;
+    }
+
+    .rating1 > label:before {
+        padding: 5px;
+        font-size: 24px;
+        line-height: 1em;
+        display: inline-block;
+        content: "★";
+    }
+.rating1 > input:checked ~ label,
+    .rating1:not(:checked)
+    {
+        color: #FFD700;
+    }

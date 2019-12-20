@@ -1,0 +1,94 @@
+.pic
+{
+  padding-left: 80px;
+}
+
+.word01
+{
+  padding-top: 20px;
+  text-align: center;
+  color: #7A5000;
+  letter-spacing: 7px;
+  font-weight: bold;
+}
+
+.word01>a
+{
+  text-decoration:none;
+    color: #7A5000;
+}
+
+.word01>a:hover
+{
+  color:#C78100;
+}
+
+.word02
+{
+  padding-left: 60px;
+  margin-bottom: 0px;
+  padding-top: 135px;
+  margin-top: -110px;
+  color: #7A5000;
+  
+}
+
+.topmargin2
+{
+  margin-top: 40px;
+}
+
+.word03
+{
+  padding-left: 60px;
+  margin-bottom: 0px;
+  padding-top: 135px;
+  color: #7A5000;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.productphoto>div
+{
+  transform:scale(1,1);
+    transition: all 0.3s ease-out;
+}
+
+.productphoto>div:hover
+{
+  transform:scale(1.05,1.05);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.productphoto>div>a
+{
+  text-decoration:none;
+}
+
+.productname
+{
+  text-align: center;
+  margin-top: 10px;
+  color: #3c3c3c;
+}
+
+.productprice
+{
+  color: #F95B06;
+  margin-left: 15px;
+}
+
+footer
+{
+  position: absolute;
+  top: 4800px;
+  background-color: #FFA98A;
+  height: 85px;
+  margin-top: 80px;
+  width: 100%;
+}
+
