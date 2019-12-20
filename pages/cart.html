@@ -103,64 +103,16 @@
               			<li>
                  			<ul class="count">
                     			<li><span id="num-jian" class="num-jian">-</span></li>
-                    			<li><input type="text" class="input-num" id="input-num" value="0" /></li>
+                    			<li><input type="text" class="input-num" id="input-num" value="1" /></li>
                     			<li><span id="num-jia" class="num-jia">+</span></li>
                 			</ul>
-            			</li>    
+            			</li> 
+                  <li class="item">該項總價</li>   
 　　　  				</ul>
     			</div>	           
         </div>
-        <div class="alert">
-  			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  			<label class="container"><input type="checkbox"><span class="checkmark"></span></label> 
-  				<div class="commodity">
-            	  　<ul class="btn-numbox">
-            	  		<li class="item">購買的商品名稱</li>
-            	  		<li class="item">購買的商品價格</li>
-              			<li>
-                 			<ul class="count">
-                    			<li><span id="num-jian" class="num-jian">-</span></li>
-                    			<li><input type="text" class="input-num" id="input-num" value="0" /></li>
-                    			<li><span id="num-jia" class="num-jia">+</span></li>
-                			</ul>
-            			</li>    
-　　　  				</ul>
-    			</div>	           
-        </div>
-        <div class="alert">
-  			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  			<label class="container"><input type="checkbox"><span class="checkmark"></span></label> 
-  				<div class="commodity">
-            	  　<ul class="btn-numbox">
-            	  		<li class="item">購買的商品名稱</li>
-            	  		<li class="item">購買的商品價格</li>
-              			<li>
-                 			<ul class="count">
-                    			<li><span id="num-jian" class="num-jian">-</span></li>
-                    			<li><input type="text" class="input-num" id="input-num" value="0" /></li>
-                    			<li><span id="num-jia" class="num-jia">+</span></li>
-                			</ul>
-            			</li>    
-　　　  				</ul>
-    			</div>	           
-        </div>
-        <div class="alert">
-  			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  			<label class="container"><input type="checkbox"><span class="checkmark"></span></label> 
-  				<div class="commodity">
-            	  　<ul class="btn-numbox">
-            	  		<li class="item">購買的商品名稱</li>
-            	  		<li class="item">購買的商品價格</li>
-              			<li>
-                 			<ul class="count">
-                    			<li><span id="num-jian" class="num-jian">-</span></li>
-                    			<li><input type="text" class="input-num" id="input-num" value="0" /></li>
-                    			<li><span id="num-jia" class="num-jia">+</span></li>
-                			</ul>
-            			</li>    
-　　　  				</ul>
-    			</div>	           
-        </div>
+       
+        
     </center>
     <hr>
     <div class="total"><br>
@@ -221,8 +173,8 @@
 
             num_jian.onclick = function() {
 
-            			if(input_num.value <= 0) {
-                			input_num.value = 0;
+            			if(input_num.value <= 1) {
+                			input_num.value = 1;
             			} else {
 
                 			input_num.value = parseInt(input_num.value) - 1;
