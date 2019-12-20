@@ -1,0 +1,45 @@
+body{
+	font-family: "微軟正黑體";
+}
+.container00{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 200px;
+    width:750px;
+    height:450px;
+}
+
+h2.text00{
+	margin-top: 130px;
+	font-size: 35px;
+	padding-top: 65px;
+	line-height: 80px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	color:sienna;
+}
+.button
+{   z-index: 999;
+	font-size:23px;
+	background-color:#FFA98A; 
+	width:150px;
+	height:80px;
+	display: inline-block;
+    border-radius: 20px;
+    color:white;
+    line-height:70px;
+    margin-top: 0px;
+    /*margin-bottom: 350px;*/
+}
+a:hover{
+	color:darkred;
+	text-decoration: none;
+}
+footer
+{
+  position: absolute;
+  top: 850px;
+  background-color: #FFA98A;
+  height: 85px;
+  margin-top: 80px;
+  width: 100%;
+}
