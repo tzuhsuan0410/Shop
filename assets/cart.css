@@ -80,7 +80,7 @@ h1{
   margin-top: 20px;
   height:150px;
   background-color:white;
-  color:dimgray;
+  color:rgb(144, 142, 142);
   margin-left: 80px;
   margin-right: 80px;
   overflow: auto;
@@ -107,7 +107,7 @@ h1{
 div.commodity{
   float: right;
   margin-top:-50px;
-  margin-left: 0px;
+  margin-left: -50px;
 }
 
 
@@ -215,7 +215,9 @@ li.item{
   margin-top: 80px;
   margin-left:0px;
 }
-
+#producta{
+  color: dimgray;
+}
   footer
 {
   position: absolute;
