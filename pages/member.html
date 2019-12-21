@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>會員基本資料</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	    <style>
+			@import"../assets/shop.css";
+            @import"../assets/member.css";
+   		</style>
+</head>
+<body>
+<header class="">
+      <nav class="navbar navbar-expand-lg navbar-light navall" style="background-color: #FFA98A;">
+        <a class="navbar-brand" id="brandname" name="logo" href="../index.html"><img src="../assets/images/737983.png" width="60" height="60" alt="" class="logo"><br>沙發馬鈴薯</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown navmenu01">
+              <a class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">
+                品牌列表
+              </a>
+              <div class="dropdown-menu dropdownmenu" aria-labelledby="navbarDropdown">
+                <div class="row">
+                       <div class="column">
+                        <a class="dropdown-item dropitem item" href="taiwan.html#Potato">波的多</a>
+                        <a class="dropdown-item dropitem item" href="taiwan.html#Cadina">卡迪那</a>
+                        <a class="dropdown-item dropitem item" href="japan.html#Koikeya">湖池屋</a>
+                        <a class="dropdown-item dropitem item" href="japan.html#Calbee">Calbee</a>
+                        <a class="dropdown-item dropitem item" href="japan.html#Royce">ROYCE</a>
+                        <a class="dropdown-item dropitem item" href="korea.html#nobrand">No Brand</a>
+                        <a class="dropdown-item dropitem item" href="korea.html#orion">ORION</a>  
+                       </div>
+                       <div class="column">
+                        <a class="dropdown-item dropitem item" href="korea.html#haitai">HAITAI</a>
+                        <a class="dropdown-item dropitem item" href="malaysia.html#MisterPotato">MISTER POTATO</a>
+                        <a class="dropdown-item dropitem item" href="malaysia.html#Jacker">Jacker</a>
+                        <a class="dropdown-item dropitem item" href="malaysia.html#Hiro">HIRO</a>
+                        <a class="dropdown-item dropitem item" href="thailand.html#Tasto">Tasto</a>
+                        <a class="dropdown-item dropitem item" href="singapore.html#salted">食樂坡</a>
+                        <a class="dropdown-item dropitem item" href="singapore.html#FEast">F.EAST</a>
+                       </div>
+                       <div class="column">
+                        <a class="dropdown-item dropitem item" href="america.html#Pringles">品客</a>
+                        <a class="dropdown-item dropitem item" href="america.html#Lays">樂事</a>
+                        <a class="dropdown-item dropitem item" href="newzealand.html#Eta">Eta</a>
+                        <a class="dropdown-item dropitem item" href="newzealand.html#Bluebird">Bluebird</a>
+                        <a class="dropdown-item dropitem item" href="australia.html#RedRock">RED ROCK DELI</a>
+                        <a class="dropdown-item dropitem item" href="australia.html#Smiths">SMITH'S</a>
+                        <a class="dropdown-item dropitem item" href="australia.html#Thins">Thins</a>
+                       </div>
+                    </div>
+            </div>
+            </li>
+            <li class="nav-item navmenu01">
+              <a class="nav-link" id="navmenu00" href="activity.html">促銷活動</a>
+            </li>
+            <li class="nav-item navmenu01">
+              <a class="nav-link"  id="navmenu00" href="rank.html">排行榜</a>
+            </li>
+            <li class="nav-item navmenu01">
+              <a class="nav-link"  id="navmenu00" href="about.html">關於我們</a>
+            </li>
+          </ul>
+
+            <ul class="navbar-nav mr-auto rightul">
+                <li class="nav-item dropdown navmenu02"><a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown"><img src="../assets/images/user.png" style="width:45px; height:45px;"></span></a>
+                      <div class="dropdown-menu membermenu ">
+                          <a class="dropdown-item dropitem" href="signin.html">登入</a><br>
+                          <a class="dropdown-item dropitem" href="register.html">註冊</a><br>
+                          <a class="dropdown-item dropitem" href="member.html">修改會員資料</a><br>
+                          <a class="dropdown-item dropitem" href="order.html">訂單紀錄</a><br>
+                          <a class="dropdown-item dropitem" href="praise.html">評價紀錄</a><br>
+                          <a class="dropdown-item dropitem" href="javascript:void(0)">登出</a>
+                      </div>
+                </li>
+                <li class="cart navmenu02"><a href="cart.html"><img src="../assets/images/shopping-cart.png" style="width:50px; height:50px;"><span class="badge">0</span></a></li>  
+                  
+            </ul>
+        </div>
+      </nav>
+      </header>
+      <center>
+<div class="allmember" >
+    <form action="/action_page.php">
+          
+              <h2 class="membertittle">會員基本資料</h2><br>
+              <hr>
+              <div class="container item topmargin">
+              <label for="name"><b>姓名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+              <input type="text" name="name" required><br><br>
+              <label for="name"><b>性別&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+              <input type="radio" name="gender" value="man" checked/>男生&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" name="gender" value="woman"/>女生&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+              <label for="birth"><b>生日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+              <input type="date" id="bookdate"><br><br>        
+              <label for="phone"><b>電話&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+              <input type="text" name="phone" required><br><br>
+              <label for="address"><b>地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+              <input type="text"  class="address" name="address" required><br><br>
+                </div>
+   
+    <button type="submit" class="enterbtn">確認送出</button><br><br>
+
+  
+  
+</form>
+</div>
+</center>
+
+
+
+
+
+
+
+
+      <div>
+      <a href="">
+        <div class="gototop"><img src="../assets/images/toparrow.png" height="50px" width="50px"></div>
+      </a>
+    </div>
+
+      
+
+    <footer>
+
+      <p class="foot1">本店配送方式一律採宅配到府！</p>
+      <p class="foot2">© 2019</p>
+      <p class="foot3">瀏覽人數：</p>
+    </footer>
+
+    <script >
+      $(function(){
+  
+        $(window).scroll(function(){
+          //var $(window).scrollTop(); 為 scroll
+          var scroll = $(window).scrollTop();
+          
+          if( scroll >= 70){
+            // 當卷軸超過70px,.gototop就淡入，如果小於就淡出
+            $(".gototop").fadeIn();
+            
+          }else{
+            
+            $(".gototop").fadeOut();
+            
+          }
+        });
+        // 當我按下.gototop時，添加動畫讓卷軸跑道最上面
+        $('.gototop').click(function(){
+          $('html,body').animate({
+            scrollTop:$('html').offset().top
+          })
+          
+          return false;
+        });
+      })
+    </script>
+
+</body>
+</html>
