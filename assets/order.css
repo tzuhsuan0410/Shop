@@ -1,0 +1,38 @@
+.allorder{
+		margin-top: 200px;
+		padding-bottom: 50px;
+		margin-left: 150px;
+		padding-top:50px;
+		width:75%;
+        height:350px;
+		background-color: white;
+
+}
+.ordertittle{
+	margin-left: 40px;
+	color:sienna;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.buyitem{
+	width:100%;
+	float:left;
+	padding-left: 100px;
+padding-right: 100px;
+	margin-top: 30px;
+	color:dimgray;
+}
+span.item {
+  float: right;
+  color: grey;
+}
+footer
+{
+  position: absolute;
+  top: 1450px;
+  background-color: #FFA98A;
+  height: 85px;
+  margin-top: 80px;
+  margin-left:0px;
+  width: 100%;
+}
