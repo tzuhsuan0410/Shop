@@ -51,7 +51,7 @@
     }
 
 .rating1 > label {
-        color: #ddd;
+        color:/*#ddd*/;
         float: right;
     }
 
