@@ -12,7 +12,7 @@
 
 	    <style>
 			@import"../assets/shop.css";
-            @import"../assets/member.css";
+      @import"../assets/member.css";
    		</style>
 </head>
 <body>
@@ -76,7 +76,7 @@
                       <div class="dropdown-menu membermenu ">
                           <a class="dropdown-item dropitem" href="signin.html">登入</a><br>
                           <a class="dropdown-item dropitem" href="register.html">註冊</a><br>
-                          <a class="dropdown-item dropitem" href="member.html">會員基本資料</a><br>
+                          <a class="dropdown-item dropitem" href="member.html">修改會員資料</a><br>
                           <a class="dropdown-item dropitem" href="order.html">訂單紀錄</a><br>
                           <a class="dropdown-item dropitem" href="praise.html">評價紀錄</a><br>
                           <a class="dropdown-item dropitem" href="javascript:void(0)">登出</a>
@@ -88,14 +88,16 @@
         </div>
       </nav>
       </header>
+
+
       <center>
 <div class="allmember" >
     <form action="/action_page.php">
           
               <h2 class="membertittle">會員基本資料</h2><br>
               <hr>
-              <div class="container item ">
-              <label for="name"><b>姓名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+              <div class="container item topmargin">
+              <label for="name"><b class="">姓名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
               <input type="text" name="name" required><br><br>
               <label for="name"><b>性別&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
               <input type="radio" name="gender" value="man" checked/>男生&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -108,7 +110,8 @@
               <input type="text"  class="address" name="address" required><br><br>
                 </div>
    
-    <button type="submit" class="enterbtn">確認送出</button><br><br>
+    <button type="submit" class="enterbtn">確認送出</button>
+    <input type="button" class="modifybtn" value="修改資料" onclick="location.href='modify.html'"><br><br>
 
   
   
