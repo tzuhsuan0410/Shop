@@ -1,0 +1,66 @@
+body{
+	font-family: "微軟正黑體";
+}
+.allmember{
+	margin-top:200px;
+	text-align: center;
+	background-color: white;
+	width:70%;
+	background-color: #FDF5E6;
+    overflow: auto;
+}
+.membertittle{
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: sienna;
+  padding-top: 50px;
+}
+.item {
+  text-align:left;
+  padding: 16px;
+  padding-left: 280px;
+  padding-right: 80px;
+}
+b{
+  color:/*#A97070*/#9F6060;
+  font-size: 20px;
+  text-align: left;
+}
+.address{
+	width:300px;
+}
+.email{
+  width:220px;
+}
+.enterbtn {
+  background-color: #FFA98A;
+  color: white;
+  font-size: 18px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+.enterbtn:hover {
+  opacity: 1;
+  color:darkred;
+
+}
+
+
+footer
+{
+  position: absolute;
+  top: 1200px;
+  background-color: #FFA98A;
+  height: 85px;
+
+
+  width: 100%;
+
+}
