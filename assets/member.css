@@ -37,6 +37,7 @@ b{
   margin: 8px 0;
   border: none;
   border-radius: 20px;
+  margin-right: -150px;
   cursor: pointer;
   width: 30%;
   opacity: 0.9;
@@ -46,7 +47,25 @@ b{
   opacity: 1;
   color:darkred;
 }
-
+.modifybtn{
+	background-color: #FFA98A;
+  color: white;
+  font-size: 15px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 10%;
+ float:right;
+ margin-right: 100px;
+ margin-top:15px;
+  opacity: 0.9;
+}
+.modifybtn:hover {
+  opacity: 1;
+  color:darkred;
+}
 
 
 
@@ -58,5 +77,8 @@ footer
   top: 1200px;
   background-color: #FFA98A;
   height: 85px;
+
+
   width: 100%;
+
 }
