@@ -92,7 +92,7 @@
 
       <center>
 <div class="allmember" >
-    <form action="/action_page.php">
+   <form name="member" action="../index.html" >
           
               <h2 class="membertittle">會員基本資料</h2><br>
               <hr>
@@ -103,14 +103,14 @@
               <input type="radio" name="gender" value="man" />男生&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="radio" name="gender" value="woman"/>女生&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
               <label for="birth"><b>生日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
-              <input type="date" id="bookdate"><br><br>        
+              <input type="date" id="bookdate" name="birth"><br><br>        
               <label for="phone"><b>電話&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
               <input type="text" name="phone" required><br><br>
               <label for="address"><b>地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
               <input type="text"  class="address" name="address" required><br><br>
                 </div>
    
-    <button type="submit" class="enterbtn">確認送出</button>
+    <button type="submit" class="enterbtn"/>確認送出</button>
     <input type="button" class="modifybtn" value="修改資料" onclick="location.href='modify.html'"><br><br>
 
   
@@ -168,6 +168,27 @@
         });
       })
     </script>
-
+      <SCRIPT type="text/javascript">
+       <!-- 此check()函式在最後的「傳送」案鈕會用到 -->
+        function check()
+        {
+                <!-- 若<form>屬性name值為reg裡的文字方塊值為空字串，則顯示「未輸入姓名」 -->
+                if(member.username.value == "") 
+                {
+                        alert("未輸入姓名");
+                }
+                    else if(member.birth.value == "" )
+                {
+                        alert("未輸入完整生日日期");
+                }
+                <!-- 若<form>屬性name值為reg裡的核取方塊沒有選擇，則顯示「未選擇性別」 -->
+                else if(!member.gender[0].checked && !member.gender[1].checked)
+                {
+                         alert("未選擇性別");
+                }
+                <!-- 若以上條件皆不符合，也就是表單資料皆有填寫的話，則將資料送出 -->
+                else member.submit();
+         }
+</SCRIPT>
 </body>
 </html>
