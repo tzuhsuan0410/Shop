@@ -136,7 +136,7 @@
 
 <div id="all">
     
-	<form action="/action_page.php">
+	<form name="reg" action="signin.html">
     <div class="container topmargin">
     <h1>會員註冊｜Register</h1>
     
@@ -163,6 +163,18 @@
 </form>
 </div>
 </div>
-
+      <SCRIPT type="text/javascript">
+       <!-- 此check()函式在最後的「傳送」案鈕會用到 -->
+        function check()
+        {
+                
+                if(reg.username.value == "") 
+                {
+                        alert("未輸入姓名");
+                }
+                
+                else reg.submit();
+         }
+</SCRIPT>
 </body>
 </html>
