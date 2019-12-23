@@ -20,7 +20,7 @@
 .navmenu01{
   font-size: 23px;
   color:white;
-  margin-left: 40px;
+  margin-left: 25px;
   white-space:nowrap;
 }
 
@@ -40,7 +40,6 @@
     text-align: right;
     word-wrap: break-all;
 }
-
 
 .column {
   text-align:center;
@@ -85,10 +84,21 @@
 }
 
 .rightul{
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-left: 20px;
+  margin-right: 100px;
 
 }
+
+#srcbtn{
+    margin-left:-30px;
+  }
+  .btn{
+    margin-left:15px;
+  }
+  .searchbar{
+  margin-left: 70px;
+}
+
 
 .cart{
   margin-top:10px;
