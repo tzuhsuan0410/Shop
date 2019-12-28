@@ -3,7 +3,7 @@
 		padding-bottom: 50px;
 		padding-top:50px;
 		width:75%;
-        height:350px;
+        height:550px;
 		background-color: white;
 
 }
@@ -34,4 +34,84 @@ footer
   margin-top: 80px;
   margin-left:0px;
   width: 100%;
+}
+
+.praise
+{
+	
+	padding: 20px;
+	margin: 50px 50px 0px 80px;
+	overflow: auto;
+}
+
+.rating {
+        font-size: 0;
+        display: table;
+
+        
+    }
+
+    .rating > label {
+        color: #ddd;
+        float: right;
+    }
+
+    .rating > label:before {
+        padding: 5px;
+        font-size: 24px;
+        line-height: 1em;
+        display: inline-block;
+        content: "★";
+    }
+
+    .rating > input:checked ~ label,
+    .rating:not(:checked) > label:hover,
+    .rating:not(:checked) > label:hover ~ label {
+        color: #FFD700;
+    }
+
+    .rating > input:checked ~ label:hover,
+    .rating > label:hover ~ input:checked ~ label,
+    .rating > input:checked ~ label:hover ~ label {
+        opacity: 0.5;
+    }
+
+    .submit
+{
+	background-color: #FF7847;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 8px;
+	box-shadow: 0 5px #999;
+	margin-top: 6.5px;
+	margin-right: 20px;
+	float: right;
+}
+
+.submit:active
+{
+	background-color: #FF8457;
+	box-shadow: 0 2px #666;
+	transform: translateY(2px);
+}
+
+.submit:focus
+{
+	outline:none;
+}
+
+.comment
+{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
 }

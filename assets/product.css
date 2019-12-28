@@ -14,7 +14,7 @@ footer
 
 	background-color: white;
 	width: 70%;
-	height: 1150px;
+	height: 950px;
 	/*margin-top: 180px;*/
 	position: relative;
             	top: 200px;
@@ -139,45 +139,6 @@ li {
 }
 
 
-.praise
-{
-	border:1px solid 	#BEBEBE;;
-	padding: 20px;
-	margin: 50px 50px 0px 50px;
-	overflow: auto;
-}
-
-.rating {
-        font-size: 0;
-        display: table;
-
-        
-    }
-
-    .rating > label {
-        color: #ddd;
-        float: right;
-    }
-
-    .rating > label:before {
-        padding: 5px;
-        font-size: 24px;
-        line-height: 1em;
-        display: inline-block;
-        content: "★";
-    }
-
-    .rating > input:checked ~ label,
-    .rating:not(:checked) > label:hover,
-    .rating:not(:checked) > label:hover ~ label {
-        color: #FFD700;
-    }
-
-    .rating > input:checked ~ label:hover,
-    .rating > label:hover ~ input:checked ~ label,
-    .rating > input:checked ~ label:hover ~ label {
-        opacity: 0.5;
-    }
 
 .comment
 {
@@ -192,38 +153,13 @@ li {
 
 }
 
-.submit
-{
-	background-color: #FF7847;
-	border: none;
-	color: white;
-	padding: 10px 25px;
-	text-align: center;
-	font-size: 15px;
-	border-radius: 8px;
-	box-shadow: 0 5px #999;
-	margin-top: 60px;
-	margin-right: 20px;
-	float: right;
-}
 
-.submit:active
-{
-	background-color: #FF8457;
-	box-shadow: 0 2px #666;
-	transform: translateY(2px);
-}
-
-.submit:focus
-{
-	outline:none;
-}
  
 .comments
 {
 	height: 300px;
     overflow: auto;
-    margin: 30px 50px 10px 50px;
+    margin: 70px 50px 10px 50px;
     border: 1px solid #ccc;
     padding: 20px;
 }
