@@ -2,21 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>訂單紀錄</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-	    <style>
-			@import"../assets/shop.css";
-            @import"../assets/order.css";
-   		</style>
+	<title>關於我們</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<style>
+		@import"../assets/shop.css";
+    @import"../assets/about.css";
+	</style>
 </head>
 <body>
-<header class="">
+	<header class="">
       <nav class="navbar navbar-expand-lg navbar-light navall" style="background-color: #FFA98A;">
         <a class="navbar-brand" id="brandname" name="logo" href="../index.html"><img src="../assets/images/737983.png" width="60" height="60" alt="" class="logo"><br>沙發馬鈴薯</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,6 +75,8 @@
             						<img src="../assets/images/search.png" id="srcbtn" style="width:25px;height:25px;">
           						</button>
      					</form>
+
+
             <ul class="navbar-nav mr-auto rightul">
             <li class="nav-item dropdown navmenu02"><a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown"><img src="../assets/images/user.png" style="width:45px; height:45px;"></span></a>
                       <div class="dropdown-menu membermenu ">
@@ -93,113 +94,104 @@
         </div>
       </nav>
       </header>
-	<div class=" container allorder">
-    <h2 class="ordertittle">訂單紀錄</h2>
-     <div class="buyitem">
-        <p>購買日期<span class="item">2019/12/20</span></p>
-        <p>購買商品<span class="item">《波的多》蚵仔煎口味洋芋片*1</span></p>
-        <p>運費<span class="item">NT$90</span></p>
-        <p>訂單總額<span class="item">NT$110</span></p>
-        <p>訂單狀況<span class="item">出貨中</span></p>
-         <button type="submit" class="submit1"onclick="document.getElementById('id01').style.display='block'" style="width:auto;">我要退貨</button>
-            <div id="id01" class="modal">
-              <form class="modal-content animate" action="" method="post">
-                <div class="imgcontainer ">
-                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                  <h3 class="orderreturn">退貨</h3>
-                  <div class="buyitem">
-                    <p>欲退貨商品<span class="item"><input type="checkbox" name="commodity" />《波的多》蚵仔煎口味洋芋片*1</span><br></p>
-                    <p>退貨原因<span class="item"><input type="text" name="reason" value=""></span></p>
-                    <p>退貨總額<span class="item">NT$190</span></p>
-        <button class="submit" type="submit" onclick="document.getElementById('id01').style.display='none'">確認退貨</button>
-        </div>      
-        </div></form></div></div>
-   
+
+<div class="container aboutall">
+<h1>關於我們</h1>
+    <div class="row">
+        <div class="col-md-6 col-12 photo">
+          <div class="photo">
+            <img src="../assets/images/about01.png"  style="width:65%">
+            </div>
+            <div class="information1">
+            <h3>資管二乙</h3>
+            <h3>10744272</h3>
+            <h3>邱琬渝</h3>
+            <h3>負責後端網頁製作</h3>
+          </div>
+          </div>
+        <div class="col-md-6 col-12 photo">
+          <div class="content">
+            <img src="../assets/images/about02.png"  style="width:65%">
+            </div>
+            <div class="information1">
+            <h3>資管二乙</h3>
+            <h3>10744252</h3>
+            <h3>高婕瑀</h3>
+            <h3>負責後端網頁製作</h3>
+          </div>
+          </div>
+        </div>
         
-
-
-  <div class="praise">
-        <form>
-          <div class="rating">
-            <h4>我要評價</h4>
-                <input type="radio" id="star5" name="rating" value="5" hidden/>
-                <label for="star5"></label>
-                <input type="radio" id="star4" name="rating" value="4" hidden/>
-                <label for="star4"></label>
-                <input type="radio" id="star3" name="rating" value="3" hidden/>
-                <label for="star3"></label>
-                <input type="radio" id="star2" name="rating" value="2" hidden/>
-                <label for="star2"></label>
-                <input type="radio" id="star1" name="rating" value="1" hidden/>
-                <label for="star1"></label>
+        <div class="row">
+        <div class="col-md-6 col-12 photo">
+          <div class="content">
+            <img src="../assets/images/about03.png"  style="width:65%">
             </div>
-            <div>
-              <input type="text" class="comment" name="comment" placeholder="我的評論">
-              <button type="submit" class="submit">提交</button>
+            <div class="information1">
+            <h3>資管二甲</h3>
+            <h3>10744152</h3>
+            <h3>陳子暄</h3>
+            <h3>負責前端網頁製作</h3>
+          </div>
+          </div>
+     
+        <div class="col-md-6 col-12 photo">
+          <div class="content">
+            <img src="../assets/images/about04.png"  style="width:65%">
             </div>
-            
-        </form>
-      </div>
+            <div class="information1">
+            <h3>資管二甲</h3>
+            <h3>10744133</h3>
+            <h3>余泠臻</h3>
+            <h3>負責前端網頁製作</h3>
+          </div>
+          </div>
+        </div>
+       
+</div>
 
- </div></div>
 
-	<div>
-      <a href="">
-        <div class="gototop"><img src="../assets/images/toparrow.png" height="50px" width="50px"></div>
-      </a>
-    </div>
+<div>
+			<a href="">
+				<div class="gototop"><img src="../assets/images/toparrow.png" height="50px" width="50px"></div>
+			</a>
+		</div>
 
-      
+			
 
-    <footer>
+		<footer>
 
-      <p class="foot1">本店配送方式一律採宅配到府！</p>
-      <p class="foot2">© 2019</p>
-      <p class="foot3">瀏覽人數：</p>
-    </footer>
-    <script>
-var modal = document.getElementById('id01');
+			<p class="foot1">本店配送方式一律採宅配到府！</p>
+			<p class="foot2">© 2019</p>
+			<p class="foot3">瀏覽人數：</p>
+		</footer>
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-    <script >
-      $(function(){
+		<script >
+			$(function(){
   
-        $(window).scroll(function(){
-          //var $(window).scrollTop(); 為 scroll
-          var scroll = $(window).scrollTop();
-          
-          if( scroll >= 70){
-            // 當卷軸超過70px,.gototop就淡入，如果小於就淡出
-            $(".gototop").fadeIn();
-            
-          }else{
-            
-            $(".gototop").fadeOut();
-            
-          }
-        });
-        // 當我按下.gototop時，添加動畫讓卷軸跑道最上面
-        $('.gototop').click(function(){
-          $('html,body').animate({
-            scrollTop:$('html').offset().top
-          })
-          
-          return false;
-        });
-      })
-    </script>
-
-
-
-
-
-
-
+			  $(window).scroll(function(){
+			    //var $(window).scrollTop(); 為 scroll
+			    var scroll = $(window).scrollTop();
+			    
+			    if( scroll >= 70){
+			      // 當卷軸超過70px,.gototop就淡入，如果小於就淡出
+			      $(".gototop").fadeIn();
+			      
+			    }else{
+			      
+			      $(".gototop").fadeOut();
+			      
+			    }
+			  });
+			  // 當我按下.gototop時，添加動畫讓卷軸跑道最上面
+			  $('.gototop').click(function(){
+			    $('html,body').animate({
+			      scrollTop:$('html').offset().top
+			    })
+			    
+			    return false;
+			  });
+			})
+</script>
 </body>
 </html>

@@ -85,7 +85,7 @@
             <a class="dropdown-item dropitem" href="member.html">會員基本資料</a><br>
             <a class="dropdown-item dropitem" href="order.html">訂單紀錄</a><br>
             <a class="dropdown-item dropitem" href="praise.html">評價紀錄</a><br>
-                                                <a class="dropdown-item dropitem" href="javascript:void(0)">登出</a>
+            <a class="dropdown-item dropitem" href="javascript:void(0)">登出</a>
                       </div>
                 </li>
                 <li class="cart navmenu02"><a href="cart.html"><img src="../assets/images/shopping-cart.png" style="width:50px; height:50px;"><span class="badge">0</span></a></li>  
@@ -155,15 +155,46 @@
    
     <hr>
    
-    <button type="submit" class="registerbtn">登入</button><br><br>
+    <button type="submit" class="registerbtn">登入</button>
   </div>
-  
+  </form>
+<div class="container forgetpsw">
+    <button class="forgetpswbtn"onclick="document.getElementById('id01').style.display='block'" style="width:auto;">忘記密碼</button>
+        <div id="id01" class="modal">
+            <form class="modal-content animate" action="" method="post">
+                <div class="container001 ">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <div class="buyitem">
+                          <label for="username">用戶名稱&nbsp;&nbsp;Username&nbsp;&nbsp;</label>
+                          <input type="text" class="inputusername" name="username" required><br><br>
+                          <label for="email">電子信箱&nbsp;&nbsp;E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <input type="password"  class="inputemail" name="email" required><br><br>
+                          <button type="submit" class="registerbtn" onclick="" >確認</button>
+                      </div>
+                </div>
+            </form>
+        </div>
+        <div id="id02" class="modal">
+            <form class="modal-content animate" action="" method="post">
+                <div class="container001 ">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <div class="buyitem">
+                          <label for="username">新密碼&nbsp;&nbsp;</label>
+                          <input type="text" class="inputusername" name="newpsw" required><br><br>
+                          <label for="email">確認密碼&nbsp;&nbsp;</label>
+                          <input type="password"  class="inputemail" name="email" required><br><br>
+                          <button type="submit" class="registerbtn" onclick="" >確認</button>
+                      </div>
+                </div>
+            </form>
+        </div>
+</div>
+</div>    
+    
   <div class="container signin">
     <p>還沒有帳號嗎？<a href="register.html">請按此註冊</a>！</p>
   </div>
-</form>
-</div>
-</div>
+
 <SCRIPT type="text/javascript">
        <!-- 此check()函式在最後的「傳送」案鈕會用到 -->
         function check()
@@ -177,6 +208,30 @@
                 else reg.submit();
          }
 </SCRIPT>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
 </body>
 </html>
 
