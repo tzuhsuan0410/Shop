@@ -1,0 +1,40 @@
+.body{
+	font-family: 微軟正黑體
+}
+h1{
+	margin-top:150px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	padding: 30px;
+	text-align: center;
+	color:#A0522D;
+}
+.photo{
+	text-align: center;
+
+}
+.information1{
+	text-align: center;
+	margin-left:120px;
+	margin-right: 120px;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+.information1>h3{
+	text-align: center;
+	letter-spacing: 1px;
+	color:#642100;
+	font-weight: bold;
+
+}
+
+
+ footer
+{
+  position: absolute;
+  top: 1550px;
+  background-color: #FFA98A;
+  height: 85px;
+  margin-top: 80px;
+  width: 100%;
+}

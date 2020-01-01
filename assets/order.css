@@ -16,14 +16,20 @@
 .buyitem{
 	width:100%;
 	float:left;
+  text-align: left;
 	padding-left: 100px;
-padding-right: 100px;
+  padding-right: 100px;
 	margin-top: 30px;
 	color:dimgray;
 }
 span.item {
   float: right;
   color: grey;
+}
+.orderreturn{
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 20px;
 }
 footer
 {
@@ -88,6 +94,7 @@ footer
 	box-shadow: 0 5px #999;
 	margin-top: 6.5px;
 	margin-right: 20px;
+  margin-bottom: 20px;
 	float: right;
 }
 
@@ -101,6 +108,32 @@ footer
 .submit:focus
 {
 	outline:none;
+}
+.submit1
+{
+  background-color: #FF7847;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 8px;
+  box-shadow: 0 5px #999;
+  margin-top: 6.5px;
+  margin-right: 0px;
+  float: right;
+}
+
+.submit1:active
+{
+  background-color: #FF8457;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.submit1:focus
+{
+  outline:none;
 }
 
 .comment
@@ -128,3 +161,69 @@ footer
 .return>a{
 	 color:	#FF6347;
 }
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+  margin-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
