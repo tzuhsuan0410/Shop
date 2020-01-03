@@ -99,41 +99,51 @@
 
    <h1>購物車</h1>
    <center>
- 
+ <form action="">
 		<div class="alert">
-  			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  			<label class="container"><input type="checkbox"><span class="checkmark"></span></label> 
+  			<a href=""><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span></a>
+  			<label class="container"><input type="checkbox" name="check" value="cartitem01"><span class="checkmark"></span></label>
   				<div class="commodity">
             	  　<ul class="btn-numbox">
             	  		<li class="item"><p><a href="product.html" id=producta>《波的多》蚵仔煎口味洋芋片43g</a></p></li>
             	  		<li class="item">NT$20</li>
               			<li>
-                 			<ul class="count">
-                    			<li><span id="num-jian" class="num-jian">-</span></li>
-                    			<li><input type="text" class="input-num" id="input-num" value="1" /></li>
-                    			<li><span id="num-jia" class="num-jia">+</span></li>
-                			</ul>
+                 			<form>
+                        <select name="selectnumber" class="selectnumber">
+　                         <option value="one">1</option>
+　                         <option value="two">2</option>
+　                         <option value="three">3</option>
+　                         <option value="four">4</option>
+                           <option value="five">5</option>
+                           <option value="six">6</option>
+                           <option value="seven">7</option>
+                           <option value="eight">8</option>
+                           <option value="nine">9</option>
+                           <option value="ten">10</option>
+                        </select>
+                      </form>
             			</li> 
                   <li class="item">NT$20</li>   
 　　　  				</ul>
-    			</div>	           
+    			</div>
+       	           
         </div>
-       
+     
         
-    </center>
+    
     <hr>
     <div class="total"><br>
       總共____元</div><br><br>
      <div class="checked">
-    <a href="check.html" class="button">去買單</a>
+    <input type="submit" name="gocheck" value="去買單" class="button">
     </div>
-
+     </form>
 <div>
 			<a href="">
 				<div class="gototop"><img src="../assets/images/toparrow.png" height="50px" width="50px"></div>
 			</a>
 		</div>
-
+</center>
 			
 
 		<footer>
