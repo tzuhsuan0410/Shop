@@ -153,9 +153,6 @@ div.commodity{
                 width: 280px;
                 overflow:hidden;
                 margin: 0 0px 0 -20px;
-                
-
-
             }
             
             .btn-numbox .count .num-jian,
@@ -178,6 +175,13 @@ div.commodity{
                 border-left: 0;
                 border-right: 0;
             }
+
+.selectnumber{
+  width:80px;
+ margin-left: 50px;
+ margin-right:50px;
+ margin-top: 10px;
+}
 
 li.item{
   font-size: 25px;
@@ -204,6 +208,7 @@ li.item{
       text-decoration: none;
       display: inline-block;
       border-radius: 20px;
+      border-style: none;
 }
 .button:hover{
     color:darkred;
