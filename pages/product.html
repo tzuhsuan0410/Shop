@@ -165,9 +165,21 @@
 											<ul class="count">
 											<form>
 											<input type="hidden"  name='no' value='1'>
-												<li><span id="num-jian" class="num-jian">-</span></li>
-												<li><input type="text" class="input-num" id="input-num" value="1" /></li>
-												<li><span id="num-jia" class="num-jia">+</span></li>
+											<li>
+								              <select class="input-num">
+								                <option>1</option>
+								                <option>2</option>
+								                <option>3</option>
+								                <option>4</option>
+								                <option>5</option>
+								                <option>6</option>
+								                <option>7</option>
+								                <option>8</option>
+								                <option>9</option>
+								                <option>10</option>
+								              </select>
+								            </li>
+												
 											</ul>
 										</li>
 										<li><span class="kucun">（庫存：100）</span></li>
@@ -251,29 +263,7 @@
 
 
 
-		<script>
-		var num_jia = document.getElementById("num-jia");
-		var num_jian = document.getElementById("num-jian");
-		var input_num = document.getElementById("input-num");
-
 		
-
-		  $("body").on("click",".num-jian",function (m) {
-           var obj = $(this).closest("ul").find(".input-num");
-           if (obj.val() = 1) {
-                obj.val(0);
-           } else {
-                obj.val(parseInt(obj.val()) - 1);
-           }
-           obj.change();
-     });
-     $("body").on("click",".num-jia",function (m) {
-           var obj = $(this).closest("ul").find(".input-num");
-           obj.val(parseInt(obj.val()) + 1);
-           obj.change();
-     });
-
-		</script>
 
 		
 	</body>
