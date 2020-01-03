@@ -87,18 +87,17 @@ li {
     height:40px;
     line-height: 40px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     color:#ADADAD ;
     cursor: pointer;
     border: 1px solid 	#BEBEBE;
 }
  
 .btn-numbox .count .input-num {
-    width: 80px;
+    width: 150px;
     height: 40px;
     color: #333;
-    border-left: 0;
-    border-right: 0;
+  
 }
 
 .number
