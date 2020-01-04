@@ -175,6 +175,8 @@ span.price {
   font-size: 20px;
   font-weight: bold;
   color:dimgray;
+  margin-bottom: 10px;
+  display: block;
 }
 footer
 {
